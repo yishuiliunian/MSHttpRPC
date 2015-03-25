@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'MSHttpRPC', :exclusive => true do
+  pod "MSHttpRPC", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "MSHttpRPC", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
