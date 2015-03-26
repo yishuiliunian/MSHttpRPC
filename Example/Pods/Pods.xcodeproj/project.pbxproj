@@ -296,7 +296,7 @@
 		5AF94C027C695868AA3F73E7 /* Pods-Tests-MSHttpRPC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-MSHttpRPC.xcconfig"; path = "../Pods-Tests-MSHttpRPC/Pods-Tests-MSHttpRPC.xcconfig"; sourceTree = "<group>"; };
 		5F65AB5F77ADD3A2D70CF837 /* Pods-Tests-DZSinglonFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZSinglonFactory-prefix.pch"; path = "../Pods-Tests-DZSinglonFactory/Pods-Tests-DZSinglonFactory-prefix.pch"; sourceTree = "<group>"; };
 		644CD4695A92149E6D74650C /* NSString+URLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
-		659D4B7A1AC3DC2D007C2DAF /* MSHttpRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSHttpRPC.h; sourceTree = "<group>"; };
+		659D4B7B1AC3DDAD007C2DAF /* MSHttpRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSHttpRPC.h; path = Pod/Classes/MSHttpRPC.h; sourceTree = "<group>"; };
 		65D10132B9D1EF8118082349 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65EA8A2529F97CF0C521FE17 /* libPods-Tests-MSHttpRPC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-MSHttpRPC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		664FD951615ED43583AAEA9A /* MSHttpLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSHttpLog.h; path = Pod/Classes/MSHttpLog.h; sourceTree = "<group>"; };
@@ -660,7 +660,7 @@
 		95487BEC176F5B1584F60749 /* MSHttpRPC */ = {
 			isa = PBXGroup;
 			children = (
-				659D4B7A1AC3DC2D007C2DAF /* MSHttpRPC.h */,
+				659D4B7B1AC3DDAD007C2DAF /* MSHttpRPC.h */,
 				664FD951615ED43583AAEA9A /* MSHttpLog.h */,
 				3F60002B120174F819583414 /* MSHttpLog.m */,
 				71C81656DC9C56C58290E77A /* MSRequest.h */,
