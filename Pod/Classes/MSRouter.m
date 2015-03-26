@@ -27,4 +27,5 @@ NSString* const HttpMethodGET = @"GET";
     _baseURL = @"http://120.24.241.221/cgi-bin/";
     return self;
 }
+
 @end
