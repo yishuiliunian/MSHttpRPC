@@ -1,0 +1,33 @@
+PODS:
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - DZSinglonFactory (1.0.2)
+  - FBSnapshotTestCase (1.6)
+  - MSHttpRPC (0.1.0):
+    - CocoaLumberjack
+    - DZSinglonFactory
+    - NSString-UrlEncode
+  - NSString-UrlEncode (2.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MSHttpRPC (from `../`)
+
+EXTERNAL SOURCES:
+  MSHttpRPC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: fd2b1031c6c4e0f08b5ea928ef677fa0a5de517d
+  DZSinglonFactory: 2b43251e9dcb1053c79a7c776dff5bbe0dea602b
+  FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
+  MSHttpRPC: 14d2a01c8e105bc635f68421af09592500623bca
+  NSString-UrlEncode: 884ff989b77aeec0fe25474edc32ad7e31ffc5ff
+
+COCOAPODS: 0.35.0.rc2
