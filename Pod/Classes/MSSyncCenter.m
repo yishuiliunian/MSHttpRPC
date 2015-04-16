@@ -59,6 +59,12 @@
 - (void) registerBaseURL:(NSString*)url{
     [MSRouter shareRouter].baseURL = url;
 }
+
+
+- (void) registerDecodeBlock:(MSSyncDecodeResponseDataBlock)block
+{
+    _decodeBlock = block;
+}
 @end
 
 MSSyncDecodeResponseDataBlock MSDefaultDecodeDictionaryBlock = ^NSObject *(NSData *data, NSError *__autoreleasing *error) {
