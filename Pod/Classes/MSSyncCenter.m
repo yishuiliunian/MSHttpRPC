@@ -33,6 +33,10 @@
     _operationQueue = [[NSOperationQueue alloc] init];
     return self;
 }
+- (NSString*) baseURL
+{
+    return [MSRouter shareRouter].baseURL;
+}
 - (int) performRequest:(MSRequest*)request
 {
     NSAssert(self.commonParametersSetBlock, @"没有注册commonParametersSetBlock");

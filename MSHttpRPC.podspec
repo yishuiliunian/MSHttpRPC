@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MSHttpRPC"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "MSHttpRPC是一个简单基于Http的RPC框架"
   s.description      = <<-DESC
                         MSHttpRPC是一个简单基于Http的RPC框架,完成了主体的HTTP-RPC的CS交互的工作，用户可通过注册相应的关键性的Block来完成自定义的功能。
